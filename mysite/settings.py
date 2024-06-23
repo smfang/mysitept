@@ -25,9 +25,7 @@ SECRET_KEY = 'django-insecure-^hy*+1w9=ib&29k1o3yx_eol@4ub*hxe=lffdoxhs@g+5)r6jm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'my-site-lkf2.onrender.com'
-]
+ALLOWED_HOSTS = [os.environ.get('RENDER_EXTERNAL_HOSTNAME'), 'localhost', '127.0.0.1', '[::1]']
 
 
 # Application definition
@@ -82,7 +80,7 @@ DATABASES = {
         'NAME': 'postgres_g27c',
         'USER': 'postgres_g27c_user',
         'PASSWORD': 'RIJp20e4X3NrBmZ54cF5NZdZadZA8PuF',
-        'HOST': 'dpg-cps4tqo8fa8c7391ialg-a.oregon-postgres.render.com/postgres_g27c',
+        'HOST': 'dpg-cps4tqo8fa8c7391ialg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }

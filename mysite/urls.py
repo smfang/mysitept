@@ -21,6 +21,6 @@ from mysite.views import health_check
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('polls/', include('polls.urls')),  # include the urls.py from the polls application
+    # path('polls/', include('polls.urls')),  # include the urls.py from the polls application
     path('health/', health_check, name='health_check'),
 ]

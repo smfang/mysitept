@@ -80,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'my_stire',
-        'USER': 'postgres',
+        'USER': 'my_stire_user',
         'PASSWORD': 'vKI692qjfdsa8WEUIDnydeVvTdzYYxAh',
         'HOST': 'dpg-cps3oqij1k6c738h14p0-a.oregon-postgres.render.com',
         'PORT': '5432',

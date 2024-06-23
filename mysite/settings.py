@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'my_stire',
-        'USER': 'my_stire_user',
-        'PASSWORD': 'vKI692qjfdsa8WEUIDnydeVvTdzYYxAh',
-        'HOST': 'dpg-cps3oqij1k6c738h14p0-a.oregon-postgres.render.com',
+        'NAME': 'postgres_g27c',
+        'USER': 'postgres_g27c_user',
+        'PASSWORD': 'RIJp20e4X3NrBmZ54cF5NZdZadZA8PuF',
+        'HOST': 'dpg-cps4tqo8fa8c7391ialg-a.oregon-postgres.render.com/postgres_g27c',
         'PORT': '5432',
     }
 }
